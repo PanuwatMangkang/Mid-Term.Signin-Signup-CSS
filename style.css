@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFCCF6;
+}
+
+.container {
+    width: 900px;
+    height: 600px;
+    background-color: #fff;
+    box-shadow: 1px 1px #FFCCF6;
+    border-radius: 15px;
+    display: flex;
+}
+
+.container .left-s {
+    width: 60%;
+    height: 100%;
+    background-color: #FF6FE5;
+    border-radius: 10px 0px 0px 10px;
+    background-image: url('Elysian.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.container .left-s .info-left {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .left-s .info-left .text-display {
+    font-size: 40px;
+    font-weight: 600;
+    color: #F44FFF;
+    margin-top: 65%;
+    -webkit-text-stroke: 1px white;
+}
+
+.container .left-s .info-left .btn-left {
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container .left-s .info-left .btn-left .example a {
+    background-color: #FFCCF6;
+    color: #000;
+    border: 2px solid #FF6FE5;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.container .left-s .info-left .btn-left .example a:hover {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #F44FFF;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.container .left-s .info-left .btn-left .more a {
+    color: #000;
+    background-color: #FFCCF6;
+    border: 2px solid #FF6FE5;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.container .left-s .info-left .btn-left .more a:hover {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #F44FFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.container .right-s {
+    width: 40%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 0px 10px 10px 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .right-s .logo {
+    font-size: 48px;
+    font-weight: 700;
+    color: #F44FFF;
+    -webkit-text-stroke: 1px #000;
+}
+
+.container .right-s .text-welcome {
+    font-size: 24px;
+    font-weight: 500;
+    color: #F44FFF;
+}
+
+.container .right-s .text-detail {
+    font-size: 18px;
+    font-weight: 400;
+    color: #F44FFF;
+}
+
+.container .right-s .form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .right-s .form .email,
+.container .right-s .form .password {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    border: 1px solid #FF6FE5;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.container .right-s .form .button {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #FF6FE5;
+    border: 1px solid #000;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.container .right-s .form .button:hover {
+    border: 1px solid #FF6FE5;
+    background-color: transparent;
+    color: #000;
+    cursor: pointer;
+}
+
+.container .right-s .form .hr {
+    margin-top: 20px;
+    color: #000;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.container .right-s .form .btn {
+    margin-top: 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #FF6FE5;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.container .right-s .form .btn a {
+    color: #000;
+}
+
+.container .right-s .form .btn:hover {
+    color: #fff;
+    background-color: #FF6FE5;
+}
+
+.container .right-s .form .btn a:hover {
+    color: #fff;
+}
+
+.container .right-s .text-signup {
+    font-size: 16px;
+    font-weight: 400;
+    color: #35589A;
+    margin-top: 30px;
+}
+
+.container .right-s .text-signup a {
+    color: #35589A;
+}

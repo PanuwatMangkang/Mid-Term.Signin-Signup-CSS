@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFCCF6;
+}
+
+.main {
+    width: 900px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.main .left-s {
+    width: 60%;
+    height: 100%;
+    background-color: #FFCCF6;
+    border-radius: 10px 0px 0px 10px;
+    background-image: url('Elly.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.main .right-s {
+    width: 40%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .right-s .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+}
+
+.main .right-s .txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.main .right-s .form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.main .right-s .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+input[type="Username"],
+input[type="email"],
+input[type="password"],
+input[type="cpassword"] {
+    font-size: 16px;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    border: 1px solid #FF6FE5;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.main .right-s .form-group .button {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #FF6FE5;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.main .rightc .form-group .button:hover {
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    border: 1px solid #FF6FE5;
+}
+
+.main .rightc .textsign-in {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
